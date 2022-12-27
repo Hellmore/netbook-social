@@ -25,6 +25,21 @@
     width: 80%;
 }
 
+/* ABOUT */
+
+.about__container {
+    flex-direction: column;
+}
+
+.about__text {
+    width: 100%;
+}
+
+.about__imgs {
+    width: 100%;
+}
+
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -41,5 +56,19 @@
 
 .hero__imgs {
     width: 90%;
+}
+
+/* ABOUT */
+
+.about__container {
+    padding-top: 100px;
+}
+
+.about__title {
+    font-size: 30px;
+}
+
+.about__subtitle {
+    font-size: 14px;
 }
 }
