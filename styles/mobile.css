@@ -1,0 +1,45 @@
+@media only screen and (max-width: 900px) {
+
+/* MENU */
+
+.menu__nav {
+    display: none;
+}
+
+.menu__buttons {
+    width: 20%;
+}
+
+/* HERO */
+
+.hero__container {
+    flex-direction: column;
+}
+
+.hero__text {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.hero__imgs {
+    width: 80%;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+/* HERO */
+
+.hero__title {
+    font-size: 45px;
+}
+
+.hero__subtitle {
+    font-size: 16px;
+}
+
+.hero__imgs {
+    width: 90%;
+}
+}
