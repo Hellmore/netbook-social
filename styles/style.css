@@ -270,3 +270,150 @@
     border-radius: 15px;
 
 }
+
+/* ACHIEVEMENTS */
+
+.achievements {
+    width: 100%;
+    padding-bottom: 180px;
+}
+
+.achie__container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.achie__cards {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.achie__card {
+    padding-top: 45px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 18px;
+    border: 1px solid rgb(194, 186, 186);
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    border-radius: 14px;
+    width: calc(50% - 12px);
+}
+
+.achie__card-title {
+    display: flex;
+    margin: 0 auto;
+}
+
+.card-title-img {
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+}
+
+.card-title-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0A093D;
+}
+
+.achie__card-info {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 36px auto 40px;
+}
+
+.card-info-img {
+    position: absolute;
+    left: -12px;
+}
+
+.card-info-img1 {
+    position: absolute;
+    left: -20px;
+}
+
+.card-info-img2 {
+    position: absolute;
+}
+
+.card-info-img3 {
+    position: absolute;
+    left: 20px;
+}
+
+.card-info-text {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5D5B70;
+    left: 70px;
+}
+
+.card-info-text1 {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5D5B70;
+    left: 30px;
+}
+
+.card-info-text-detail {
+    color: #217BF4;
+}
+
+.achie__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8C8C8C;
+    margin: 0 auto 40px;
+}
+
+.achie__button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #217BF4;
+    margin: 0 auto;
+}
+
+.achie__main {
+    width: 35%;
+}
+
+.achie__starter {
+    font-size: 18px;
+    font-weight: 500;
+    color: #217BF4;
+    margin-bottom: 10px;
+}
+
+.achie__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0A093D;
+    margin-bottom: 18px;
+}
+
+.achie__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #656464;
+    margin-bottom: 38px;
+}
+
+.achie__main-button {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #217BF4;
+    padding: 22px 0;
+    border-radius: 14px;
+    box-shadow: 0px 10px 22px rgba(33, 123, 244, 0.26);
+    width: 40%;
+    display: block;
+}

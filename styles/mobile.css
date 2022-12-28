@@ -39,6 +39,21 @@
     width: 100%;
 }
 
+/* ACHIEVEMENTS */
+
+.achie__container {
+    flex-direction: column;
+}
+
+.achie__cards {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.achie__main {
+    width: 100%;
+}
+
 
 }
 
@@ -69,6 +84,25 @@
 }
 
 .about__subtitle {
+    font-size: 14px;
+}
+
+/* ACHIEVEMENTS */
+
+.achie__cards {
+    flex-direction: column;
+}
+
+.achie__card {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.achie__title {
+    font-size: 30px;
+}
+
+.achie__subtitle {
     font-size: 14px;
 }
 }
