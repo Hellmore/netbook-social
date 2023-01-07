@@ -429,6 +429,7 @@
     width: 90%;
     max-width: 1440px;
     margin: 0 auto;
+    padding-bottom: 180px;
 }
 
 .community__text {
@@ -510,4 +511,113 @@
     font-size: 16px;
     font-weight: 400;
     color: #656464;
+}
+
+/* MEMBERS */
+
+.members {
+    width: 100%;
+}
+
+.members__container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
+
+.members__text {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.members__starter {
+    font-size: 18px;
+    font-weight: 500;
+    color: #217BF4;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.members__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0A093D;
+    line-height: 36px;
+    margin-bottom: 18px;
+}
+
+.members__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #656464;
+    line-height: 28px;
+    margin-bottom: 38px;
+}
+
+.members__tab {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d2dae4;
+    border-radius: 14px;
+    width: 55%;
+    margin: 0 auto;
+    padding: 8px;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.members__tab-option {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2F2C4A;
+    width: 20%;
+    text-align: center;
+}
+
+.members__tab-button {
+    background-color: #217BF4;
+    border-radius: 14px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    width: 30%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.members__cards {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.members__card {
+    padding: 30px 52px;
+    border: 1px solid rgba(243, 243, 243, 0.5);
+    border-radius: 14px;
+    box-shadow: 0 34px 68px 0 #e6e6e7;
+    width: calc(25% - 22.5px);
+}
+
+.members__card-img {
+    margin-bottom: 34px;
+    width: 100%;
+}
+
+.members__card-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2F2C4A;
+    line-height: 26px;
+    margin-bottom: 14px;
+}
+
+.members__card-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #656464;
+    line-height: 16px;
 }

@@ -56,6 +56,10 @@
 
 /* COMMUNITY */
 
+.community__container {
+    padding-bottom: 80px;
+}
+
 .community__text {
     width: 80%;
 }
@@ -66,6 +70,18 @@
 
 .community__cards-partition {
     width: 100%;
+}
+
+/* MEMBERS */
+
+.members__cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.members__card {
+    width: 40%;
+    margin-bottom: 80px;
 }
 
 }
@@ -132,4 +148,24 @@
 .comm__text-subtitle {
     font-size: 14px;
 }
+
+/* MEMBERS */
+
+.members__text {
+    width: 100%;
+}
+
+.members__tab {
+    width: 100%;
+}
+
+.members__cards {
+    flex-wrap: inherit;
+    flex-direction: column;
+}
+
+.members__card {
+    width: 100%;
+}
+
 }
