@@ -621,3 +621,68 @@
     color: #656464;
     line-height: 16px;
 }
+
+/* DOWNLOAD */
+
+.download {
+    width: 100%;
+    background-color: #E5F0FD;
+    padding-top: 122px;
+}
+
+.download__container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.download__text {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.download__starter {
+    font-size: 18px;
+    font-weight: 500;
+    color: #217BF4;
+    margin-bottom: 10px;
+}
+
+.download__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0A093D;
+    line-height: 52px;
+    margin-bottom: 18px;
+}
+
+.download__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0A093D;
+    line-height: 26px;
+    margin-bottom: 36px;
+}
+
+.download__buttons {
+    display: flex;
+    width: 100%;
+}
+
+.download__text-button {
+    width: 45%;
+}
+
+.download__imgs {
+    width: 50%;
+    align-items: baseline;
+}
+
+.download__main-img {
+    width: 115%;
+}
+
