@@ -75,7 +75,7 @@
 /* MEMBERS */
 
 .members__container {
-    padding-bottom: ;
+    padding-bottom: 60px;
 }
 
 .members__cards {
@@ -214,6 +214,30 @@
 
 .download__subtitle {
     font-size: 14px;
+}
+
+/* NEWS */
+
+.news__text {
+    width: 100%;
+}
+
+.news__title {
+    font-size: 30px;
+}
+
+.news__cards {
+    flex-direction: column;
+}
+
+.news__card {
+    width: 90%;
+    margin: 0 auto 50px;
+
+}
+
+.news__card-img {
+    width: 100%;
 }
 
 }
