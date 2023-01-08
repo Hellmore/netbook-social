@@ -1,0 +1,298 @@
+@media only screen and (max-width: 900px) {
+
+/* MENU */
+
+.menu__nav {
+    display: none;
+}
+
+.menu__buttons {
+    width: 20%;
+}
+
+/* HERO */
+
+.hero__container {
+    flex-direction: column;
+}
+
+.hero__text {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.hero__imgs {
+    width: 80%;
+}
+
+/* ABOUT */
+
+.about__container {
+    flex-direction: column;
+}
+
+.about__text {
+    width: 100%;
+}
+
+.about__imgs {
+    width: 100%;
+}
+
+/* ACHIEVEMENTS */
+
+.achie__container {
+    flex-direction: column;
+}
+
+.achie__cards {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.achie__main {
+    width: 100%;
+}
+
+/* COMMUNITY */
+
+.community__container {
+    padding-bottom: 80px;
+}
+
+.community__text {
+    width: 80%;
+}
+
+.community__cards {
+    flex-direction: column;
+}
+
+.community__cards-partition {
+    width: 100%;
+}
+
+/* MEMBERS */
+
+.members__container {
+    padding-bottom: 60px;
+}
+
+.members__cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.members__card {
+    width: 40%;
+    margin-bottom: 80px;
+}
+
+/* DOWNLOAD */
+
+.download__container {
+    flex-direction: column;
+}
+
+.download__text {
+    width: 100%;
+}
+
+.download__imgs {
+    width: 100%;
+}
+
+.download__buttons {
+    width: 50%;
+}
+
+.download__main-img {
+    width: 100%;
+}
+
+/* NAVEGATION */
+
+.nav__nav {
+    flex-direction: column;
+}
+
+.nav__cards {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.nav__subscribe {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+.footer__socials {
+    justify-content: space-evenly;
+}
+}
+
+@media only screen and (max-width: 500px) {
+
+/* HERO */
+
+.hero__title {
+    font-size: 45px;
+}
+
+.hero__subtitle {
+    font-size: 16px;
+}
+
+.hero__imgs {
+    width: 90%;
+}
+
+/* ABOUT */
+
+.about__container {
+    padding-top: 100px;
+}
+
+.about__title {
+    font-size: 30px;
+}
+
+.about__subtitle {
+    font-size: 14px;
+}
+
+/* ACHIEVEMENTS */
+
+.achie__cards {
+    flex-direction: column;
+}
+
+.achie__card {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.achie__title {
+    font-size: 30px;
+}
+
+.achie__subtitle {
+    font-size: 14px;
+}
+
+/* COMMUNITY */
+
+.community__text {
+    width: 100%;
+}
+
+.comm__text-title {
+    font-size: 30px;
+}
+
+.comm__text-subtitle {
+    font-size: 14px;
+}
+
+/* MEMBERS */
+
+.members__text {
+    width: 100%;
+}
+
+.members__title {
+    font-size: 30;
+}
+
+.members__subtitle {
+    font-size: 14px;
+}
+
+.members__tab {
+    width: 100%;
+}
+
+.members__cards {
+    flex-wrap: inherit;
+    flex-direction: column;
+}
+
+.members__card {
+    width: 100%;
+}
+
+/* DOWNLOAD */
+
+.download__buttons {
+    width: 100%;
+}
+
+.download__title {
+    font-size: 30px;
+}
+
+.download__subtitle {
+    font-size: 14px;
+}
+
+/* NEWS */
+
+.news__text {
+    width: 100%;
+}
+
+.news__title {
+    font-size: 30px;
+}
+
+.news__cards {
+    flex-direction: column;
+}
+
+.news__card {
+    width: 90%;
+    margin: 0 auto 50px;
+
+}
+
+.news__card-img {
+    width: 100%;
+}
+
+/* NAVEGATION */
+
+.nav__cards {
+    flex-wrap: wrap;
+}
+
+.nav__card {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+/* FOOTER */
+
+.footer__socials {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__socials-credits {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer__logo {
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer__socials-imgs {
+    margin: 0 auto;
+}
+
+
+}
